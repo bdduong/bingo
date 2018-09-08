@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.called {
+  color: white;
+  background-color: black;
+}
+.square {
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 10px solid green;
+}
